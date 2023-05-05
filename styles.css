@@ -36,6 +36,7 @@ a:hover {
     color: var(--ltgreen);
     text-decoration: none;
 }
+/* Intro section */
 #intro{
     padding-bottom: 10rem;
 }
@@ -55,4 +56,75 @@ a:hover {
 #intro h2{
     font-size: 4rem;
     font-weight: normal ;
+}
+/* Contact section  */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+#contact p:last-child{
+    margin-top: 3rem;
+}
+/* Nav bar */
+nav{
+    font-family: var(--mono);
+    font-size: 80%;
+    padding: 1rem;
+}
+nav h1 a{
+    font-family: var(--sans);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+nav li:first-child{
+    flex-basis: 100%;
+    text-align: center;
+}
+nav a{
+    color: var(--green);
+    text-decoration: none;
+}
+nav [class*="fa-"] {
+    font-size: 150%;
+    color: var(--sand);
+}
+nav h1 [class*="fa-"]{
+    font-size: 100%;
+    color: var(--sand);
+}
+nav a:hover{
+    color: var(--ltgreen);
+}
+nav [class*="fa-"]:hover {
+    color: var(--ltgreen);
+  }
+.button {
+    background-color: var(--ltgreen);
+    color: var(--dkblue);
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.button:hover {
+    background-color: var(--sand);
+    color: var(--dkblue);
+}
+@media (min-width: 850px) {
+    nav {
+      margin: 0 auto;
+    }
+    nav li:first-child {
+      flex-basis: auto;
+      text-align: left;
+      margin-right: auto;
+    }
 }
