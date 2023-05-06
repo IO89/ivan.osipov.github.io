@@ -1,38 +1,137 @@
-<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet"> 
-<script src="https://kit.fontawesome.com/d5335a0ae8.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="styles.css">
-<nav>
-    <ul>
-        <li><h1><a href="index.html">
-            <span aria-hidden="true" class="fa-solid fa-bolt"></span>
-            <span>Ivan Osipov</span>
-        </a>
-    </h1>
-</li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="https://www.linkedin.com/in/ivan-osipov-5a020343/" target="_blank">
-            <span aria-hidden="true" class="fa-brands fa-linkedin"></span>
-            <span class="sr-only">LinkedIn</span>
-        </a>
-    </li>
-        <li><a href="https://github.com/io89" target="_blank">
-            <span aria-hidden="true" class="fa-brands fa-square-github"></span>
-            <span class="sr-only">GitHub</span>
-        </a></li>
-        <li><a class="button" href="https://drive.google.com/file/d/1CyxkQubPVYffYy9Y0q7sVSjXZ0RsjcJJ/view?usp=share_link">Resume</a></li>
-    </ul>
-</nav>
-<section id="intro">
-    <p class="name">Hi, my name is <span>Ivan Osipov.</span></p>
-    <h2>Full stack developer</h2>
-    <p>I create end to end solutions for web and mobile applications.</p>
-    <p>Currently, I'm helping people improve metabolic health at <a href="https://www.veri.co/" target="_blank">Veri.</a></p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
 
-<section id="contact">
-        <h2 >Contact me</h3>
-        <p>Reach out and see how I can help take your project to the next level.</p>
-        <p><a href="mailto:osipov.ivan.89@gmail.com">Email me</a></p> 
-</section>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d5335a0ae8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1><a href="index.html">
+                        <span aria-hidden="true" class="fa-solid fa-bolt"></span>
+                        <span>Ivan Osipov</span>
+                    </a>
+                </h1>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://www.linkedin.com/in/ivan-osipov-5a020343/" target="_blank">
+                    <span aria-hidden="true" class="fa-brands fa-linkedin"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li><a href="https://github.com/io89" target="_blank">
+                    <span aria-hidden="true" class="fa-brands fa-square-github"></span>
+                    <span class="sr-only">GitHub</span>
+                </a></li>
+            <li><a class="button"
+                    href="https://drive.google.com/file/d/1CyxkQubPVYffYy9Y0q7sVSjXZ0RsjcJJ/view?usp=share_link">Resume</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="intro">
+        <p class="name">Hi, my name is <span>Ivan Osipov</span></p>
+        <h2>Full stack developer</h2>
+        <p>I create end to end solutions for web and mobile applications.</p>
+        <p>Currently, I'm helping people improve metabolic health at <a href="https://www.veri.co/"
+                target="_blank">Veri.</a></p>
+    </section>
+
+    <div class="gradient" />
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+        <h4>Latest project</h4>
+        <h3>Veri</h3>
+        <p>
+            I'm working on mobile app that helps to track and improve metabolic health at <a href="https://www.veri.co/"
+                target="_blank">Veri.</a>
+        </p>
+        <h4>Technologies used include:</h4>
+        <ul>
+            <li>React Native</li>
+            <li>NodeJS</li>
+            <li>PostgresSQL</li>
+            <li>Typescript</li>
+        </ul>
+
+        <h3>Aiven</h3>
+        <p>Building web client to interact with <a href="https://aiven.io/" target="_blank">Aiven platform.</a></p>
+        <h4>Technologies used include:</h4>
+        <ul>
+            <li>React Native</li>
+            <li>Redux</li>
+            <li>Python</li>
+        </ul>
+
+        <h3>Futurice</h3>
+        <p>Developing end to end solutions for clients at <a href="https://futurice.com/">Futurice</a></p>
+        <p>Technologies used include:</p>
+        <p>React, React Native, Redux, NodeJS, AWS, GCP, Terraform</p>
+        <h4>Technologies used include:</h4>
+        <ul>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Redux</li>
+            <li>NodeJS</li>
+            <li>Typescript</li>
+            <li>AWS</li>
+            <li>GCP</li>
+            <li>Terraform</li>
+        </ul>
+        </article>
+    </section>
+
+    <div class="gradient"></div>
+    <div class="section-drkgreen">
+    <section id="contact">
+        <h2>Contact me</h3>
+            <p>Reach out and see how I can help take your project to the next level.</p>
+            <p><a class="button" href="mailto:osipov.ivan.89@gmail.com">Email me</a></p>
+    </section>
+    </div>
+
+    <div class="gradient" />
+
+    <section id="footer">
+        <h2>Ivan Osipov | Full stack developer</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/ivan-osipov-5a020343/" target="_blank">
+                    <span aria-hidden="true" class="fa-brands fa-linkedin"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li><a href="https://www.github.com/io89" target="_blank">
+                    <span aria-hidden="true" class="fa-brands fa-square-github"></span>
+                    <span class="sr-only">GitHub</span>
+                </a></li>
+            <li>
+                <a mailto="osipov.ivan.89@gmail.com">
+                    <span aria-hidden="true" class="fa-solid fa-envelope"></span>
+                    <span class="sr-only">Email</span>
+                </a>
+            </li>
+        </ul>
+        <p><small>&copy Ivan Osipov <span id="current-date" /></small></p>
+    </section>
+    <script>
+        const currentDate = new Date();
+        const year = currentDate.getFullYear();
+        document.getElementById("current-date").innerHTML = year;
+    </script>
+</body>
+
+</html>
