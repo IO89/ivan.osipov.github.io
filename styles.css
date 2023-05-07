@@ -45,40 +45,6 @@ a:hover {
     height: 2px;
 }
 
-
-/* Intro section */
-#intro{
-    padding: 4rem 1rem 10rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#intro p {
-    font-size: 1rem;
-    line-height: 1.5;
-}
-#intro .name{
-    font-family: var(--mono);
-}
-#intro .name span {
-    font-family: var(--sans);
-    font-size: 4rem;
-    color: var(--green);
-    display: block;
-}
-#intro h2{
-    font-size: 4rem;
-    font-weight: normal ;
-}
-/* Contact section  */
-#contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem 0;
-}
-#contact p:last-child{
-    margin-top: 3rem;
-}
 /* Nav bar */
 nav{
     font-family: var(--mono);
@@ -120,6 +86,41 @@ nav a:hover{
 nav [class*="fa-"]:hover {
     color: var(--ltgreen);
   }
+
+/* Intro section */
+#intro{
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#intro .name{
+    font-family: var(--mono);
+}
+#intro .name span {
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--green);
+    display: block;
+}
+#intro h2{
+    font-size: 4rem;
+    font-weight: normal ;
+}
+/* Contact section  */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+#contact p:last-child{
+    margin-top: 3rem;
+}
+
 .button {
     background-color: var(--ltgreen);
     color: var(--dkblue);
@@ -146,19 +147,40 @@ nav [class*="fa-"]:hover {
 /* Project section */
 #projects {
     padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 #projects h2 {
     font-size: 2.5rem;
     margin-bottom: calc(2.5rem * 1.5);
 }
 #projects h3{
-    color: var(--ltgreen)
+    color: var(--ltgreen);
+    margin-top: calc(2.5rem * 1.5);
 }
 #projects h4{
     font-size: 1rem;
     font-family: var(--mono);
     margin: 0;
 }
+#projects ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+.blackbox{
+    background-color: var(--black);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 /* Footer section */
 #footer {
     text-align: center;
